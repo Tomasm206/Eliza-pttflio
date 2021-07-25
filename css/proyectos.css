@@ -1,0 +1,37 @@
+.proyectos {
+  margin-top: 80px;
+}
+
+.frontend {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.fr2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.arrow {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-desk {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  #ph_desk {
+    width: 652px;
+    height: 392px;
+  }
+}
